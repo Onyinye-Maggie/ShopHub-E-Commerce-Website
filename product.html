@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Product</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+
+<h2>ShopHub</h2>
+
+<div class="theme-switch">
+<input type="checkbox" id="dark-toggle">
+<label for="dark-toggle"></label>
+</div>
+
+<div class="cart-icon" onclick="toggleCart()">
+🛒 <span id="cart-count">0</span>
+</div>
+
+</header>
+
+
+<div class="product-page">
+
+<img id="product-image">
+
+<div class="product-info">
+
+<h1 id="product-name">Running Sneakers</h1>
+
+<p id="product-price">$65.00</p>
+
+<button id="add-to-cart">Add to Cart</button>
+
+</div>
+
+</div>
+<div class="product-page">
+
+<img id="product-image">
+
+<div class="product-info">
+
+<h1 id="product-name">Travel Backpack</h1>
+
+<p id="product-price">$45.00</p>
+
+<button id="add-to-cart">Add to Cart</button>
+
+</div>
+
+</div>
+<div class="product-page">
+
+<img id="product-image">
+
+<div class="product-info">
+
+<h1 id="product-name">Luxury Watch</h1>
+
+<p id="product-price">$120.00</p>
+
+<button id="add-to-cart">Add to Cart</button>
+
+</div>
+
+</div>
+<div class="product-page">
+
+<img id="product-image">
+
+<div class="product-info">
+
+<h1 id="product-name">Wireless Headphones</h1>
+
+<p id="product-price">$90.00</p>
+
+<button id="add-to-cart">Add to Cart</button>
+
+</div>
+
+</div>
+
+<div class="product-page">
+
+<img id="product-image">
+
+<div class="product-info">
+
+<h1 id="product-name">Fashion Handbag</h1>
+
+<p id="product-price">$100.00</p>
+
+<button id="add-to-cart">Add to Cart</button>
+
+</div>
+
+</div>
+<div id="cart-sidebar" class="cart-sidebar">
+
+<h2>Your Cart</h2>
+
+<div id="cart-items"></div>
+
+<h3>Total: $<span id="cart-total">0</span></h3>
+
+<button onclick="checkout()">Checkout</button>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>

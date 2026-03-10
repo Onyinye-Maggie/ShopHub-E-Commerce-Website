@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>ShopHub</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+
+<h2>ShopHub</h2>
+
+<div class="theme-switch">
+<input type="checkbox" id="dark-toggle">
+<label for="dark-toggle"></label>
+</div>
+
+<div class="cart-icon" onclick="toggleCart()">
+🛒 <span id="cart-count">0</span>
+</div>
+
+</header>
+
+<section id="product-list" class="products"></section>
+
+<div id="cart-sidebar" class="cart-sidebar">
+
+<h2>Your Cart</h2>
+
+<div id="cart-items"></div>
+
+<h3>Total: $<span id="cart-total">0</span></h3>
+
+<button onclick="checkout()">Checkout</button>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
